@@ -45,7 +45,6 @@ export const AppProvider = ({ children }) => {
       value={{
         addItem,
         ...state,
-        dispatch,
         removeTime,
         deleteFunc,
         isEditFunc,
